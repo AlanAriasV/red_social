@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "822880088690",
+    "project_id": "app-isocial",
+    "storage_bucket": "app-isocial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822880088690:android:2fc8dbf1306722b5d988eb",
+        "android_client_info": {
+          "package_name": "com.iSocial.i_social"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822880088690-lurg5qn4r2p2254fafrflcqkuc3gegm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcNSi5sd8LN9LFHgHrrSeYFI5YMzQSE8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822880088690-bqpop0jjg34nid5qm5cilo604srekqt9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "822880088690-ab8cobtdknmi9dgquntuauhjm1gapu30.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.redSocial.redSocial.RunnerTests"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
