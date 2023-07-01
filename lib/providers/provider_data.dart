@@ -1,17 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 
-import 'enums.dart';
+// import 'enums.dart';
 
 class ProviderData with ChangeNotifier {
-  ThemeType _themeMode = ThemeType.light;
+  ThemeMode _themeMode = ThemeMode.system;
+  final Brightness _brightness =
+      SchedulerBinding.instance.platformDispatcher.platformBrightness;
 
-  set themeMode(ThemeType value) {
+  set themeMode(ThemeMode value) {
     _themeMode = value;
     notifyListeners();
     // print(auth);
   }
 
-  ThemeType get themeMode => _themeMode;
+  ThemeMode get themeMode => _themeMode;
+
+  Brightness get brightness => _brightness;
 
   // set logged(bool value) {
   //   _logged = value;
